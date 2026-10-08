@@ -11,7 +11,7 @@
 
 **Total Files Parsed:** 4 | **Total Symbols Extracted:** 9 | **Total Imports:** 9
 
-<!-- ranking_model: v1.0 | weights: {ppr:0.45,auth:0.2,test:0.15,doc:0.1,fresh:0.1} | alpha:0.85 | commit:1e0fd0b | date:2026-07-18 -->
+<!-- ranking_model: v1.0 | weights: {ppr:0.45,auth:0.2,test:0.15,doc:0.1,fresh:0.1} | alpha:0.85 | commit:05a4468 | date:2026-07-18 -->
 
 
 ## Table of Contents
@@ -24,13 +24,12 @@
 6. [Hotspot Analysis](#hotspot-analysis)
 7. [Change Impact Analysis](#change-impact-analysis)
 8. [Suggested Linting Rules](#suggested-linting-rules)
-9. [Concept Graph](#concept-graph)
-10. [Orphans](#orphans)
-11. [Query Recipes](#query-recipes)
-12. [Structural Knowledge Map](#structural-knowledge-map)
-13. [UML Class Diagram](#uml-class-diagram)
-14. [Code Property Graph](#code-property-graph)
-15. [Architecture Reference](#architecture-reference)
+9. [Orphans](#orphans)
+10. [Query Recipes](#query-recipes)
+11. [Structural Knowledge Map](#structural-knowledge-map)
+12. [UML Class Diagram](#uml-class-diagram)
+13. [Code Property Graph](#code-property-graph)
+14. [Architecture Reference](#architecture-reference)
     - [C (2 files)](#c-2-files)
     - [PY (1 files)](#py-1-files)
     - [SH (1 files)](#sh-1-files)
@@ -123,19 +122,6 @@ Files ranked by combined complexity (symbol count) and centrality (connection co
 | `patch_thermal.c` | 0.286 | 0.286 | 0.286 | 2 | 2 |
 | `lima_h3_emuna.c` | 1.000 | 1.000 | 1.000 | 7 | 7 |
 | `install.sh` | 0.000 | 0.000 | 0.000 | 0 | 0 |
-
----
-
-## Concept Graph
-
-Semantic second-brain layer: nouns are concept nodes, verbs are edges. Each noun maps atomically to a file set (EXTRACTED); each verb aggregates structural imports, calls, and inherits into consumes, invokes, extends, depends_on, or bridges (INFERRED).
-
-**2 concepts, 0 relations.**
-
-| Concept | Files | Mentions |
-|---------|-------|----------|
-| `thermal` | 2 | 7 |
-| `gpl` | 2 | 2 |
 
 ---
 

@@ -1,8 +1,8 @@
 # Subsystem: root
 
 ## app.py
-- Doc: Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]com Fecha de creación...
 - Layer: utility
+- Doc: app.py  Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]com Fecha de creación: xx/xx/xxxx Licenci
 - Language: py
 
 ## install.sh
@@ -11,6 +11,7 @@
 
 ## lima_h3_emuna.c
 - Layer: utility
+- Doc: SPDX-License-Identifier: GPL-2.0-or-later
 - Language: c
 - Symbols:
   - `emuna_show` (function, line 45) `static ssize_t emuna_show(struct device *dev,
@@ -24,8 +25,8 @@
   - `THERMAL_TABLE_SIZE` (macro, line 32) `#define THERMAL_TABLE_SIZE`
 
 ## patch_thermal.c
-- Doc: Parchear thermal_ctrl_freq en la dirección 0x294e4
 - Layer: utility
+- Doc: Parchear thermal_ctrl_freq en la dirección 0x294e4
 - Language: c
 - Symbols:
   - `thermal_patch_init` (function, line 7) `static int __init thermal_patch_init(void)`
