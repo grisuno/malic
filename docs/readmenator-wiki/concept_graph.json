@@ -1,0 +1,24 @@
+{
+  "concepts": [
+    {
+      "name": "thermal",
+      "files": [
+        "lima_h3_emuna.c",
+        "patch_thermal.c"
+      ],
+      "mentions": 7,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "gpl",
+      "files": [
+        "app.py",
+        "lima_h3_emuna.c"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    }
+  ],
+  "relations": [],
+  "dialectic": []
+}
